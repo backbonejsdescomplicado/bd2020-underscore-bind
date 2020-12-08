@@ -7,7 +7,7 @@
 
             const title = $( '<h1>' );
             title.addClass( 'title' );
-            title.append( 'Hello, World!' );
+            title.append( 'Underscore Binding com Backbone.js' );
 
             const subtitle = $( '<p>' );
             subtitle.addClass( 'subtitle' );
