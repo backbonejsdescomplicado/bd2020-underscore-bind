@@ -23,6 +23,6 @@
 
     };
 
-    setTimeout( hello.goodMorningWrapper(), 3 );
+    setTimeout( hello.goodMorningWrapper() );
 
 } )();
