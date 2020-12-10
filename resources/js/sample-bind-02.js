@@ -9,7 +9,7 @@
             const goodMorning = function () {
 
                 console.log( 'Sample #2: Hello, good morning!' );
-                console.log( this ); // Object { goodMorningWrapper }
+                console.log( this ); // Object { goodMorningWrapper: ... }
 
             };
 
