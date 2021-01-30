@@ -2,13 +2,13 @@
 
     const Hello = Backbone.Model.extend( {
 
-        initialize: function() {
+        initialize: function () {
 
-            _.bindAll(this, 'goodMorning');
+            _.bindAll( this, 'goodMorning' );
 
         },
 
-        goodMorning: function() {
+        goodMorning: function () {
 
             console.log( 'Backbone.Model Sample #1: Hello, good morning!' );
             console.log( this ); // Object { goodMorning: ... }

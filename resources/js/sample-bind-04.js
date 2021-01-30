@@ -14,7 +14,7 @@
     const hello = new Hello();
 
     hello.goodMorning = _.bind( hello.goodMorning, hello );
-    
+
 
     setTimeout( hello.goodMorning );
 
